@@ -1,0 +1,12 @@
+[package]
+name = "rustling-cli-debug"
+version = "0.17.5"
+authors = ["hdlj <hubert.delajonquiere@snips.net>", "Mathieu Poumeyrol <kali@zoy.org>"]
+
+[dependencies]
+rustling = { git="https://github.com/snipsco/rustling", tag="0.9.0" }
+rustling-ontology-grammar = { path = "../grammar"}
+rustling-ontology-moment = { path = "../moment"}
+rustling-ontology-values = { path = "../values"}
+prettytable-rs = "0.6"
+clap = "2"
