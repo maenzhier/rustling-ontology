@@ -1,11 +1,11 @@
 [package]
 name = "rustling-ontology-ko"
 version = "0.17.5"
-authors = ["hdlj <hubert.delajonquiere@snips.net>"]
+authors = ["h"]
 
 [dependencies]
 failure = "0.1"
 regex = "1.0"
-rustling = { git="https://github.com/snipsco/rustling", tag="0.9.0" }
+rustling = { git="https://github.com/maenzhier/rustling", tag="0.9.0" }
 rustling-ontology-moment = { path="../../moment"}
 rustling-ontology-values = { path="../../values"}
