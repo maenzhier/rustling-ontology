@@ -4,7 +4,7 @@ version = "0.17.5"
 authors = [">", ""]
 
 [dependencies]
-rustling = { git="https://github.com/maenzhier/rustling", tag="0.9.0" }
+rustling = { git="https://github.com/maenzhier/rustling" }
 rustling-ontology-grammar = { path = "../grammar"}
 rustling-ontology-moment = { path = "../moment"}
 rustling-ontology-values = { path = "../values"}

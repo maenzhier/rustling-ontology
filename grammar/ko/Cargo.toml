@@ -6,6 +6,6 @@ authors = ["h"]
 [dependencies]
 failure = "0.1"
 regex = "1.0"
-rustling = { git="https://github.com/maenzhier/rustling", tag="0.9.0" }
+rustling = { git="https://github.com/maenzhier/rustling" }
 rustling-ontology-moment = { path="../../moment"}
 rustling-ontology-values = { path="../../values"}
